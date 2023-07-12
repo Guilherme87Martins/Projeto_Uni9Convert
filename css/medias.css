@@ -1,0 +1,276 @@
+@media screen and (min-width: 321px) {
+    .tituloPrincipal {
+        padding: 10px;
+        position: absolute;
+        width: 90%;
+        top: 20%;
+        font-size: 2.8rem;
+        z-index: 1;
+        color: white;
+        
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .home {
+        position: absolute;
+    }
+
+    .tituloPrincipal {
+        left: 10px;
+        position: absolute;
+        width: 45%;
+        top: 20%;
+        font-size: 3rem;
+        z-index: 1;
+        color: white;  
+    }
+
+    .hero {
+        height: 100%;
+    }
+
+    aside {
+        font-size:69px; 
+        font-weight:bold;
+        width: 50%;
+        padding-left: 15px;
+        margin-left: 55px;
+        float: left; 
+        font-family: 'Roboto';
+      }
+
+      #disp{
+        background-color: transparent;
+        position:absolute;
+        top: 62%;
+        left: 10px;
+        width: 45%;
+        font-size:14px;
+        font-weight:bold;
+        z-index: 1;
+    }
+
+    .login-box {
+
+        position: absolute;
+        top:51%;
+        left: 75%;
+        width: 20rem;
+        height: 23rem;
+        padding: 40px;
+        transform: translate(-50%, -50%);
+        background: rgba(24, 20, 20, 0.987);
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+        border-radius: 10px;
+    }
+
+    /* Seletor */
+    
+    .radio-inputs {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 0.5rem;
+        background-color: #03b0f4;
+        box-sizing: border-box;
+        box-shadow: 0 0 2px #03b0f4,
+            0 0 15px #03b0f4,
+            0 0 35px #03b0f4,
+            0 0 70px #03b0f4;
+    
+        padding: 0.25rem;
+        width: 15rem;
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+ 
+    
+    /*  Button  */
+    
+
+  
+    img {
+        width: 100%;
+        height: 15vh;
+    }
+
+    .rodape {
+        display: inline;
+    }
+
+    .rodapeAtivo {
+        display: none;
+    }
+    
+    footer {
+        padding: 0;
+    }
+    
+    .rodape{
+        display: inline;
+    }
+
+    .rodapeAtivo{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .tituloPrincipal {
+        width: 50%;
+        font-size: 4rem; 
+    }
+
+    #disp{
+        background-color: transparent;
+        position: absolute;
+        top: 65%;
+        left: 10px;
+        width: 50%;
+        font-size: 1rem;
+        font-weight:bold;
+        z-index: 1;
+    }
+
+    .login-box {
+        top: 68%;
+        left: 77%;
+        width: 25rem;
+        height: 32rem;
+    }
+
+    .radio-inputs {
+        width: 20rem;
+        font-size: 15px;
+    }
+
+    .shadow__btn {
+        margin: 0rem 3rem;
+        padding: 1rem 4rem;
+    }
+    
+}
+
+@media screen and (min-width: 1291px) {
+    .home {
+        position: fixed;
+    }
+    .tituloPrincipal {
+        position: fixed;
+        width: 35%;
+        font-size: 3.8rem; 
+        top: 20%;
+        
+    }
+
+    #disp{
+        position: fixed;
+        background-color: transparent;
+        position: fixed;
+        top: 55%;
+        left: 10px;
+        width: 35%;
+        font-size: 1.2rem;
+        font-weight:bold;
+        z-index: 1;
+      
+    }
+
+    .login-box {
+        position: fixed;
+        top: 55%;
+        left: 70%;
+        width: 30rem;
+        height: 32rem;
+    }
+
+    .radio-inputs {
+        width: 25rem;
+        font-size: 18px;
+    }
+
+    .shadow__btn {
+        margin: 0rem 4rem;
+        padding: 1rem 4rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .home {
+        position: fixed;
+    }
+    .tituloPrincipal {
+        position: fixed;
+        width: 44%;
+        font-size: 4.2rem; 
+        top: 20%;
+        
+    }
+
+    #disp{
+        position: fixed;
+        background-color: transparent;
+        position: fixed;
+        top: 55%;
+        left: 10px;
+        width: 44%;
+        font-size: 1.5rem;
+        font-weight:bold;
+        z-index: 1;
+      
+    }
+
+    .login-box {
+        position: fixed;
+        top: 47%;
+        left: 70%; /*70%*/
+        width: 35rem;
+        height: 32rem;
+    }
+
+    .radio-inputs {
+        width: 30rem;
+        font-size: 23px;
+    }
+
+    .user-box label{
+        padding: 20px 0;
+        font-size: 28px;
+    }
+
+    .login-box .user-box input{
+        padding: 20px 0;
+        margin-bottom: 20px;
+        font-size: 26px;
+    }
+
+    .user-box input:focus~label,
+    .user-box input:valid~label{
+    font-size: 17px;
+    }
+
+
+    .menu-container a{
+    font-size: 1.5rem;
+
+    }
+
+    .shadow__btn {
+        margin: 0rem 7rem;
+        padding: 1rem 4rem;
+    }
+
+    img {
+        width: 100%;
+        height: 20vh;
+    }
+
+    #result{
+        width: 30rem;
+        font-size: 2rem;
+    }
+}
